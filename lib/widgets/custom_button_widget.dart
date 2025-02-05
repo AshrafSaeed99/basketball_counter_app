@@ -11,7 +11,7 @@ class CustomButtonWidget extends StatelessWidget {
     return Column(
       children: [
         ElevatedButton(
-          onPressed: onPressed,
+          onPressed:onPressed,
           style: ElevatedButton.styleFrom(
             padding: const EdgeInsets.all(0)  ,
             fixedSize: const Size(155, 60),
